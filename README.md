@@ -1,46 +1,3 @@
-<<<<<<< HEAD
-This project presents a comprehensive overview of building a simulation environment in Unity and applying the Proximal Policy Optimization (PPO) algorithm from Unity’s built-in ML-Agents toolkit. 
-
-We designed and implemented a goal-reaching simulation game in which the PPO-based chasing agent is trained to locate a target agent as quickly and accurately as
-possible. 
-
-A key contribution of our work is the introduction of a creative and customized stepwise training strategy, specifically designed to address the limitations of CPU-only training environments. 
-
-This progressive training method enables effective learning under constrained computational resources. Additionally, the project offers practical suggestions for future optimization and reflects on the broader potential applications of reinforcement learning-based simulation games.
-
-Contributions:
-We hope this project contributes meaningfully to three key objectives.
-
-First and foremost, the most significant contribution of our project is the introduction of a creative and customized step-wise training strategy in Unity engine, specifically tailored for Unity-based reinforcement learning simulation projects. This progressive approach not only improves training precision but also enhances training efficiency. While it was developed for our specific simulation, the strategy is broadly applicable to similar RL projects and can even be extended to Machine Learning and Deep Learning workflows within Anaconda-based or PyCharm-based environments.
-
-Secondly, this project serves as an excellent hands-on entry point for beginners in reinforcement learning. It offers both theoretical insights into the Proximal Policy Optimization (PPO) algorithm and practical exposure to how PPO operates in real-world simulation scenarios—helping users better understand and appreciate the power of RL.
-
-Finally, our project provides a comprehensive guide—from building the simulation environment in Unity to deploying the reinforcement learning algorithm and fine-tuning hyperparameters. As such, it can also serve as a valuable introductory project for anyone interested in developing reinforcement learning-based games or applications using Unity.
-
-If further materials for study or research, pls take below references:
-
-[1] A. Kumar, J. Fu, O. Nachum, G. Tucker, and S. Levine, "Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction," Advances in Neural Information Processing Systems (NeurIPS), vol. 33, pp. 11794–11805, 2020.
-
-[2] A. Juliani, V.-P. Berges, E. Teng, A. Cohen, J. Harper, C. Elion, Y. Gao, H. Henry, M. Mattar, and D. Lange, "Unity: A General Platform for Intelligent Agents," arXiv preprint arXiv:1809.02627, 2019.
-
-[3] D. Burda, H. Edwards, A. Storkey, and O. Klimov, "Exploration by Random Network Distillation," arXiv preprint arXiv:1810.12894, 2019.
-
-[4] Unity Technologies, "ML-Agents Toolkit," GitHub repository. [Online]. Available: https://github.com/Unity-Technologies/ml-agents. [Accessed: May 18, 2025].
-
-[5] Unity Technologies, "ML-Agents Documentation." [Online]. Available: https://unity-technologies.github.io/ml-agents/. [Accessed: May 18, 2025].
-
-[6] Unity Technologies, "ML-Agents Release 22 Branch." [Online]. Available: https://github.com/Unity-Technologies/ml-agents/tree/release_22. [Accessed: May 18, 2025].
-
-[7] Unity Technologies, "Get Started with ML-Agents in Unity - Part 1: Setup & Installation," YouTube video, 2023. [Online]. Available: https://www.youtube.com/watch?v=bT3SV1SLqHA&list=PLWcLPdrF6kOnovZnG7VT86ffqdpOUcIUV&index=2. [Accessed: May 18, 2025].
-
-[8] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, "Proximal Policy Optimization Algorithms," Journal of Machine Learning Research, vol. 20, no. 1, pp. 1–52, 2019.
-
-[9] A. Juliani, V.-P. Berges, E. Teng, A. Cohen, J. Harper, C. Elion, Y. Gao, H. Henry, M. Mattar, and D. Lange, "Unity: A General Platform for Intelligent Agents," arXiv preprint arXiv:1809.02627, updated 2020.
-
-[10] S. Khadka and K. Tumer, "Evolution-Guided Policy Gradient in Reinforcement Learning," in Proc. AAAI Conference on Artificial Intelligence, 2020, pp. 1–8.
-
-[11] J. Ibarz, M. Andrychowicz, M. Zhu, P. Wawrzyński, and W. Zaremba, "Reward Shaping for Reinforcement Learning: A Case Study of a 3D Environment," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 5, pp. 2058–2069, 2021.
-=======
 We aim for this project to make three practical contributions.
 
 First, and most importantly, we introduce a novel, customized step-wise training strategy in Unity for reinforcement learning–based simulation tasks. This progressive approach improves both training accuracy and efficiency and, while developed for this project, is broadly applicable to similar RL tasks and can be extended to ML and DL workflows in Anaconda- or PyCharm-based environments.
@@ -77,4 +34,3 @@ A draft project report and a functional demonstration video@https://youtu.be/ECY
 上述调整旨在平衡学习稳定性与模型表达能力，对策略初步收敛后的进一步优化具有关键作用。
 同时，我也提供了本项目的报告草稿与功能演示视频@https://youtu.be/ECYaj3dLhb0
 仅供大家参考。感谢关注。
->>>>>>> 981f5bf (update)
